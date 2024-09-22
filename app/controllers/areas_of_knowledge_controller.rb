@@ -1,0 +1,2 @@
+class AreasOfKnowledgeController < ApplicationController
+end

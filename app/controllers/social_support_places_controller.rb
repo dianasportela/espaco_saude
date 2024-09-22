@@ -1,0 +1,2 @@
+class SocialSupportPlacesController < ApplicationController
+end

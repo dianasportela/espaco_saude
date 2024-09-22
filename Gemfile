@@ -40,7 +40,7 @@ gem "autoprefixer-rails"
 gem "font-awesome-sass", "~> 6.1"
 gem "simple_form", github: "heartcombo/simple_form"
 gem "sassc-rails"
-gem 'cloudinary'
+gem "cloudinary"
 gem "simple_calendar", "~> 2.4"
 gem "geocoder"
 gem "pg_search"
@@ -64,7 +64,7 @@ group :development do
   gem "web-console"
 
   # Highlight the fine-grained location where an error occurred [https://github.com/ruby/error_highlight]
-  gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
+  gem "error_highlight", ">= 0.4.0", platforms: [ :ruby ]
 end
 
 group :test do
